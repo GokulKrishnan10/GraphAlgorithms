@@ -1,0 +1,38 @@
+.small {
+  width: 0.5cm;
+  height: 0.5cm;
+  background-color: white;
+  display: inline-block;
+  border: 2px solid black;
+}
+.header {
+  height: 3cm;
+  background-color: coral;
+  width: 100%;
+}
+.outer {
+  height: 30cm;
+  width: 100%;
+  background-color: darkkhaki;
+  position: absolute;
+}
+.inner {
+  margin: 5%;
+  height: 90%;
+  width: 90%;
+  background-color: darkkhaki;
+  font-size: 0px;
+}
+.small {
+  cursor: pointer;
+}
+li {
+  list-style: none;
+  display: inline-block;
+  padding: 20px;
+  font-weight: bold;
+}
+ul {
+  display: inline-block;
+  margin-left: 25%;
+}
