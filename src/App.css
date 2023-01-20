@@ -55,6 +55,7 @@ html {
   user-select: none;
 }
 li:hover {
+  cursor: pointer;
   background-color: dimgrey;
   width: 2cm;
   height: 0.6cm;
