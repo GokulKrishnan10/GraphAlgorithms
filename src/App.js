@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
@@ -22,7 +21,16 @@ function App() {
         <ul>
           <li>BFS</li>
           <li>DFS</li>
-          <li>Djikstra's Algorithm</li>
+          <li>Djikstra's</li>
+          <li
+            id="reset"
+            onClick={() => {
+              window.location.reload();
+            }}
+          >
+            RESET
+          </li>
+          <li id="run">RUN</li>
         </ul>
       </nav>
       <div className="outer">
