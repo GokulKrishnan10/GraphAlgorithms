@@ -16,6 +16,14 @@ function App() {
     console.log(start, " and end ", end);
     first++;
   }
+  function dfs(index, arr) {
+    if (index >= arr.length) return;
+    if (index === end) return;
+    dfs(index + 0, arr);
+    dfs(index - 0, arr);
+    dfs(index + 0, arr);
+    dfs(index - 0, arr);
+  }
   function startGame() {
     let j = 0;
     for (let i = start; i <= end; i++) {

@@ -30,7 +30,6 @@ li {
   list-style: none;
   display: inline-block;
   padding: 15px;
-
   font-weight: bold;
 }
 ul {
@@ -40,14 +39,7 @@ ul {
 #reset {
   cursor: pointer;
 }
-#run {
-  background-color: dimgrey;
-  width: 2cm;
-  height: 0.6cm;
-  border-radius: 20px;
-  text-align: center;
-  color: white;
-}
+
 #run:hover {
   cursor: pointer;
 }
